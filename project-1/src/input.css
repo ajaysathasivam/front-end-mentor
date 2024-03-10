@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom css */
+/* .hover:hover{
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+} */
+body{
+    color:hsl(0, 0%, 100%) ;
+    background-color:hsl(217, 54%, 11%);
+}
+
+   
+.container-card{
+    background-color: hsl(216, 50%, 16%);
+    /* min-width: 351px; */
+    max-width: 355px;
+}
+h1{
+    font-size: 21px;
+    
+}
+span:hover{
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+ h1:hover{
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+.name:hover{
+    color:hsl(178, 100%, 50%);
+}
+h1,span,name{
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+   
+}
+p,span,h5{
+    color:hsl(215, 51%, 70%) ;
+}
+h1,a{
+    color: hsl(0, 0%, 100%);
+}
+.box{
+    height: 280px;
+}
+.box:hover{
+    background-color:hsl(178, 100%, 50%);
+    height: 100%;
+  
+    
+}
+/* 
+Primary 
+Soft blue: hsl(215, 51%, 70%)
+Cyan: hsl(178, 100%, 50%) 
+Neutral 
+Very dark blue (main BG): hsl(217, 54%, 11%)
+Very dark blue (card BG): hsl(216, 50%, 16%)
+Very dark blue (line): hsl(215, 32%, 27%)
+White: hsl(0, 0%, 100%)  */
