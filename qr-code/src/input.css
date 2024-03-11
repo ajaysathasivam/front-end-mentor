@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom css */
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+/* main{
+    border-radius: 20px;
+    background-color: red;
+} */
+main>section{
+    border-radius: 20px;
+    background-color:  hsl(0, 0%, 100%);
+}
+h1{
+    font-size: 22px;
+    color:hsl(218, 44%, 22%) ;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(212, 45%, 89%);
+    color: hsl(220, 15%, 55%);
+}
