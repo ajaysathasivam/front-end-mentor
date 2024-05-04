@@ -1,0 +1,145 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 980px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+}
+
+.card {
+    min-width: 375px;
+    max-width: 390px;
+    height: 600px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -25px hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+}
+
+.card .card__image>img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card__content {
+    padding: 0 20px;
+    font-weight: 700;
+}
+
+.card .card__content .card__text {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.card .card__content .card__text p {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.7rem;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+.card .card__content .plan {
+    background-color: hsl(225, 100%, 96%);
+    display: flex;
+    border-radius: 20px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: hue;
+}
+
+.card .card__content .plan .plan__image {
+    margin: 0 10px;
+}
+
+.card .card__content .plan .plan__details {
+    margin-right: 30%;
+}
+
+.card .card__content .plan .plan__details span {
+    font-size: 14px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.card .card__content .plan .plan__details span.plan__name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.card .card__content .plan .plan__details span.plan__price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.card .card__content .plan .plan__action a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.card .card__content .plan .plan__action .plan__change {
+    cursor: pointer;
+}
+
+.card .card__content .plan .plan__action .plan__change:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.card .card__content .card__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.card .card__content .card__buttons .card__button {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .card__content .card__buttons .card__button--proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+}
+
+.card .card__content .card__buttons .card__button--proceed:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.card .card__content .card__buttons .card__button--cancel {
+    color: hsl(223, 47%, 23%);
+    opacity: 0.9;
+}
+
+.card .card__content .card__buttons .card__button--cancel:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=css.css.map */
